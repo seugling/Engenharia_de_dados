@@ -1,0 +1,13 @@
+# Local data — never commit source extracts or DuckDB files
+data/source/
+data/raw/
+data/staging/
+*.duckdb
+*.duckdb.wal
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
